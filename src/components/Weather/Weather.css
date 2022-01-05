@@ -1,9 +1,0 @@
-.weather{
-    background-image: url('https://miro.medium.com/max/1400/1*DBXJJ4hsLHVZwxsB2xUEfQ.jpeg');
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    height: 100vh;
-}
-.box-weather{
-    display: inline-block;
-}
