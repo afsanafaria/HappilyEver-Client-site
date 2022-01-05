@@ -1,17 +1,19 @@
 import React from 'react';
-import GoogleMap from '../GoogleMap/GoogleMap';
-import Weather from '../Weather/Weather';
+import AddUser from '../AddUser/AddUser';
+import PausedProfiles from '../Profiles/PausedProfiles/PausedProfiles';
+import Profiles from '../Profiles/Profiles';
 import './Home.css'
 
 const Home = () => {
     return (
         <div>
-            <Weather></Weather>
-            <GoogleMap></GoogleMap>
+           <Profiles></Profiles>
+           <PausedProfiles></PausedProfiles>
+           <AddUser></AddUser>
         </div>
     );
 };
 
 export default Home;
 
-// https://api.openweathermap.org/data/2.5/weather?q=dhaka&appid=c9473ed99591d86b8e43e9d96603029f&units=metric
+
